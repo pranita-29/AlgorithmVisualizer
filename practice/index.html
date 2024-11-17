@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+    </style>
+</head>
+<body>
+    <!-- <p>
+        <ul style="list-style-type: none; display: flex;
+    justify-content: left;
+    flex-wrap: wrap;">
+        </ul>
+    </p> -->
+    <div class="slide"><label for="boxs">ِArray Size</label> : <input id="boxs" type="range" name="boxs" min="1" max="100"
+            value="50" oninput="setup()" onchange="setup()">
+        <span id="b"> </span>
+    </div>
+    <div class="slide"><label for="delay">Speed</label> : <input id="delay" type="range" name="delay" min="0" max="1000"
+            value="25" oninput="setup()" onchange="setup()">
+            <button onclick="reset()">Generate New Array</button>
+        <span id="d"></span>
+    </div>
+    <input type="button" onclick="Target()" value="Target">
+    <input type="button" onclick="Reverse()" value="Reverse">
+    <input type="button" onclick="Slidingwindow()" value="Slidingwindow">
+    <input type="button" onclick="vslidingwindow()" value="VSlidingwindow">
+    <input type="button" onclick="sieveAlgo()" value="sieveAlgo">
+    <input type="button" onclick="Binarysearch()" value="Binarysearch">
+    <input type="button" onclick="Linearsearch()" value="Linearsearch">
+    <label for="">Target=</label><input id="target" type="text">
+    <label for="">Size=</label><input id="size" type="text">
+    <div id="container">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

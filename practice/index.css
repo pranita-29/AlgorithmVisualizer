@@ -1,0 +1,17 @@
+.box{
+    margin:5px 5px 5px 5px;
+    background-color: #0cf1de;
+    height:50px;
+    width:50px;
+    text-align: center;
+    font-size: 20px;
+    border: solid black 1px;
+}
+#container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.slide {
+    margin: 0vw 1vw;
+}
