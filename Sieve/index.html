@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sieve Algorithm</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sieve of Eratosthenes</h1>
+        <div class="vars">
+            <div class="range">
+                <div class="slide"><label for="boxs">ِArray Size</label> : <input id="boxs" type="range" name="boxs"
+                        min="1" max="100" value="50" oninput="setup()" onchange="setup()">
+                    <span id="b"> </span>
+                </div>
+                <div class="slide"><label for="delay">Speed</label> : <input id="delay" type="range" name="delay"
+                        min="0" max="1000" value="25" oninput="setup()" onchange="setup()">
+                    <span id="d"></span>
+                </div>
+            </div>
+            <div class="sorts">
+                <input class="icon" type="button" onclick="sieveAlgo()" value="sieve Algorithm">
+                 <input type="button" onclick="reset()" value="Generate New Array">
+            </div>
+        </div>
+    </div>
+    <div id="container">
+    </div>
+    <!-- <script src="beep.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
