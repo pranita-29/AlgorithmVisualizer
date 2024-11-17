@@ -7,7 +7,8 @@ HTML, CSS, JavaScript are used in this.
 <b>
   1. Interface of Algorithm Visualizer
   <br>
-  ![Screenshot 2024-11-17 140720](https://github.com/user-attachments/assets/49f8d400-98cc-4dbc-9437-407cde79c9d7)
+![Screenshot 2024-11-17 140720](https://github.com/user-attachments/assets/8fc40781-c0a4-4e14-9bd3-bef856c5f06e)
+
 <br><br>
   2. Sorting Algorithms
   <br>
