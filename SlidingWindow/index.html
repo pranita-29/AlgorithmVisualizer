@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sliding window Visualization</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sliding Window Algorithm</h1>
+        <div class="vars">
+            <div class="range">
+                <div class="slide"><label for="boxs">ِArray Size</label> : <input id="boxs" type="range" name="boxs"
+                        min="1" max="100" value="50" oninput="setup()" onchange="setup()">
+                    <span id="b"> </span>
+                </div>
+                <div class="slide"><label for="delay">Speed</label> : <input id="delay" type="range" name="delay"
+                        min="0" max="1000" value="25" oninput="setup()" onchange="setup()">
+                    <span id="d"></span>
+                </div>
+            </div>
+            <div class="sorts">
+                <input class="icon" type="button" onclick="Slidingwindow()" value="Sliding window">
+                <input class="icon" type="button" onclick="vslidingwindow()" value="VSliding window">
+                <input type="button" onclick="reset()" value="Generate New Array">
+            </div>
+            <div>
+         <input id="target" type="text" placeholder="Enter Target" style="padding: 1.3vh;border-radius: 20px; border-color: white;  font-size: 1.2vw;
+                ">
+        <input id="size" type="text" placeholder="Enter size" style="padding: 1.3vh;border-radius: 20px; border-color: white;  font-size: 1.2vw;
+        "><br><br>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+    </div>
+    <!-- <script src="beep.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
